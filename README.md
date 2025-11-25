@@ -1,23 +1,24 @@
-# ReaPack Repository Template
+# soundsgoodman
+repo https://github.com/Sruthin1234/soundsgoodman/blob/main/index.xml
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+Collection of REAPER (ReaScript) Lua scripts and utilities.
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+About
+-----
+This repository contains Lua scripts for REAPER (ReaScript). Each script is placed under the `ucify/` directory and includes usage notes where appropriate.
 
-```xml
-<index version="1" name="Name of your repository here">
-```
+Install (manual)
+----------------
+1. Open REAPER.
+2. Actions -> Show action list.
+3. Click "ReaScript" -> "Load" and select the `.lua` script file from this repo, or copy `.lua` into:
+   - Windows: %APPDATA%\REAPER\Scripts\
+   - macOS: ~/Library/Application Support/REAPER/Scripts/
+   - Linux: ~/.config/REAPER/Scripts/
+4. After loading, the script will appear in the Action List — assign a shortcut or run it from there.
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
 
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
 
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
-
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
+License
+-------
+This project is licensed under the MIT License. See LICENSE.
