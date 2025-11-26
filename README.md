@@ -1,5 +1,5 @@
 # soundsgoodman
-repo [https://github.com/Sruthin1234/soundsgoodman/blob/main/index.xml](https://github.com/Sruthin1234/UCSIFY2/master/index.xml)
+repo [[https://github.com/Sruthin1234/soundsgoodman/blob/main/index.xml](https://github.com/Sruthin1234/UCSIFY2/master/index.xml)](https://raw.githubusercontent.com/Sruthin1234/UCSIFY2/refs/heads/master/index.xml)
 
 Collection of REAPER (ReaScript) Lua scripts and utilities.
 
